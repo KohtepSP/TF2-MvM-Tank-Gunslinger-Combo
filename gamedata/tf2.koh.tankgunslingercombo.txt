@@ -1,0 +1,33 @@
+"Games"
+{
+	"tf"
+	{
+		"Addresses"
+		{
+			"Patch_CTFRobotArm_Smack"
+			{
+				"windows"
+				{
+					"signature" "CTFRobotArm::Smack"
+				}				
+			}
+		}
+		
+		"Signatures"
+		{
+			"CTFRobotArm::Smack"
+			{
+				"library"	"server"
+				"windows"	"\x8B\x80\x40\x01\x00\x00\xFF\xD0\x84\xC0\x74\x3D\x8B\x4D\xF8"
+			}			
+		}
+		
+		"Offsets"
+		{
+			"CTFRobotArm::Smack"
+			{
+				"windows"	"10"
+			}
+		}
+	}
+}
